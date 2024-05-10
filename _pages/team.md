@@ -37,6 +37,6 @@ permalink: /team/
     <div class="team-member">
         <img src="/assets/images/people/jacob.jpeg" alt="Daniel Jacob" class="team-member-img">
         <p><a href="https://acmg.seas.harvard.edu/">Daniel Jacob</a></p>
-        <p>Daniel J. Jacob is the Vasco McCoy Family Professor of Atmospheric Chemistry and Environmental Engineering at Harvard University.</p>
+        <p>Daniel is the Vasco McCoy Family Professor of Atmospheric Chemistry and Environmental Engineering at Harvard University.</p>
     </div>
 </div>

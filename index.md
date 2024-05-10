@@ -7,4 +7,4 @@ author_profile: false
 </div> -->
   <!-- <div class="bio">Integral Earth uses atmospheric modeling, satellite data and research-grade algorithms to quantify and monitor methane emissions worldwide.</div>  -->
   ![Methane](/assets/images/logos/dark/twoline_dark_large.png){: .align-center, style="width: 100%; " }
-  Integral Earth uses tranparent research-grade algorithms and public satellite observations to quantify and monitor methane emissions worldwide. Our mission is to make our tool accessible to everyone, from policymakers to industry stakeholders to envirommental organizations.
+  Integral Earth uses tranparent research-grade algorithms and public satellite observations to quantify and monitor methane emissions worldwide. Our mission is to make our emission monitoring platform accessible to everyone, from policymakers to industry stakeholders to envirommental organizations.
