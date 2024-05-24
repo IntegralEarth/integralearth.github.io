@@ -2,6 +2,8 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Development"
+    url: /development/
   - title: "Our Team"
     url: /team/
   - title: "Contact"

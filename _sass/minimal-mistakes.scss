@@ -38,3 +38,17 @@
 
 // Custom class
 @import "minimal-mistakes/custom";
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(188, 145, 3);
+}
+
+a strong {
+  color: inherit;
+  text-decoration: underline;
+}
