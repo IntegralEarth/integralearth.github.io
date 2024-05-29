@@ -48,6 +48,11 @@ a:hover {
   color: rgb(188, 145, 3);
 }
 
+p a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 a strong {
   color: inherit;
   text-decoration: underline;
