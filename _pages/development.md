@@ -9,9 +9,11 @@ Exciting things are coming down the pipe!
 
 ## Integral Earth Website
 
-We are a group of researchers at Harvard University who have spent years developing reliable, peer-reviewed algorithms for quantifying and monitoring methane emissions. We have developed a new, open-source tool that allows anyone to quantify methane emissions anywhere in the world: the [Integrated Methane Inversion](https://imi.seas.harvard.edu). Our tool is based on the latest scientific research and is used globally by scientists around the world.
+The Integral Earth website will be stakeholder's portal to all things IMI. Here, users will be able to submit an inversion with either simple or advanced configuration parameters, including date range, region of interest (interactively selected via an integrated map or via shapefile upload)
 
-![DashboardFull](/assets/images/Development_Page/Dashboard – Full.png){: .align-center, style="width: 100%; border-radius: 15px;" }
+Below are some sample screenshots of what the site will likely look like:
+
+![Integral Earth Full Dashboard](/assets/images/Development_Page/Dashboard – Full.png){: .align-center, style="width: 100%; border-radius: 15px;" }
 
 ## IMI 2.0
 
