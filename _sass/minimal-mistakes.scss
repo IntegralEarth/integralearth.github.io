@@ -57,3 +57,41 @@ a strong {
   color: inherit;
   text-decoration: underline;
 }
+ 
+form {
+  // Base styles for the form
+  margin: 0 auto;
+  border-radius: 10px;
+
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  input, textarea, select, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    &:focus {
+      outline: none;
+      border-color: #0073e6; /* Change to your preferred focus border color */
+      box-shadow: 0 0 5px rgba(0, 115, 230, 0.5); /* Optional: add a shadow to indicate focus */
+    }
+  }
+
+  button {
+    background-color: #0073e6;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #005bb5;
+    }
+  }
+}

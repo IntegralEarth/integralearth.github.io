@@ -24,6 +24,8 @@ Addressing this methane crisis requires **precise quantification** and monitorin
 
 The Atmospheric Chemistry Modeling Group at Harvard University has spent years developing this software, which allows for the detailed quanitification and monitoring of methane emissions. This open-source tool allows anyone to **quantify methane emissions anywhere in the world**.
 
+![methane smoke stack](/assets/images/About_Page/methanestack.jpg){: .align-center, style="border-radius: 15px;"}
+
 The IMI serves as a critical tool for both research and policy-making by providing detailed maps and data on global emissions. Researchers use IMI data to enhance scientific understanding of methane dynamics, **contributing to more accurate climate models and peer-reviewed studies**. 
 
 For policymakers, IMI’s precise emission estimates **inform targeted strategies for methane reduction and compliance monitoring**, supporting effective environmental regulations and policy adjustments based on robust empirical evidence. **This dual utility makes the IMI indispensable in the global effort to mitigate climate change impacts**. 
@@ -31,11 +33,12 @@ For policymakers, IMI’s precise emission estimates **inform targeted strategie
 <h2><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/rocket.svg" width="30" height="30"> • Our Mission </h2>
 
 
-Our goal is to make our emission monitoring platform **accessible to everyone**, from policymakers to industry stakeholders to environmental organizations. We believe that by **empowering people with the knowledge and tools** to quantify methane emissions, we can accelerate the transition to a **sustainable, low-carbon future**. One major step forward in accessibility will be the creation of a website that will make the IMI more accessible than ever.
+Our goal is to make our emission monitoring platform **accessible to everyone**, from policymakers to industry stakeholders to environmental organizations. We believe that by **empowering people with the knowledge and tools** to quantify methane emissions, we can accelerate the transition to a **sustainable, low-carbon future**. One major step forward in accessibility will be the creation of a website that will make the IMI easier to use for a **wider range of gas trackers**.
+<!--                                              CONSIDER TAKING OUT LOL ^^ -->
 
 <h2><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/globe.svg" width="30" height="30"> • Integral Earth Website </h2>
 
-The IMI provides invaluable methane emissions data that has been used by researchers, students, and stakeholders. Despite this data's usefulness, the IMI often requires **substantial technical expertise** and access to **computational resources**. 
+The IMI provides invaluable methane emissions data that has been used by researchers, students, and stakeholders. And this data will only get more useful with the [exciting release of IMI 2.0](/development#IMI2). Despite this data's usefulness, the IMI often requires **substantial technical expertise** and access to **computational resources**. 
 
 **Integral Earth** will provide an intuitive, user-friendly interface that simplifies the entire process. Users will be able to easily select their regions of interest, define inversion parameters, and visualize results without needing to understand complex coding or data processing techniques. 
 

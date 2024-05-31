@@ -5,6 +5,7 @@ permalink: /development/
 ---
 
 Exciting things are coming down the pipe!
+<br><br>
 ![Methane](/assets/images/Development_Page/methanepipe.jpeg){: .align-center, style="width: 100%; border-radius: 15px;" }
 
 ## Integral Earth Website
@@ -12,12 +13,31 @@ Exciting things are coming down the pipe!
 The Integral Earth website will be stakeholder's portal to all things IMI. Here, users will be able to submit an inversion with either simple or advanced configuration parameters, including date range, region of interest (interactively selected via an integrated map or via shapefile upload)
 
 Below are some sample screenshots of what the site will likely look like:
+### • Inversion Submission
 
+One of the core goals of Integral Earth is that users of all backgrounds will be able to use the amazing power and features of the IMI.
+
+### • Dashboard Concept
+There are two stages to running a full methane inversion using the IMI. First, the inversion preview, which offers information about prior emissions (taken from existing inventories), satellite observation density, and estimated cost of a full inversion. After the user reviews this inversion preview and are satisfied with the results, they will have the option to submit a full inversion.
+
+
+<p style = "color: grey">Preview Dashboard</p>
+![Integral Earth Full Dashboard](/assets/images/Development_Page/Dashboard - Preview.png){: .align-center, style="width: 100%; border-radius: 15px;" }
+
+---
+
+<p style = "color: grey">Full Inversion Dashboard</p>
 ![Integral Earth Full Dashboard](/assets/images/Development_Page/Dashboard – Full.png){: .align-center, style="width: 100%; border-radius: 15px;" }
 
-## IMI 2.0
+As may be expected, the full inversion dashboard will contain much more data than the preview dashboard. For example:
+- Time trend of methane emissions throughout requested date range
+- Sector totals for region of interest
+- Scale factors ratio of corrected vs. original emissions 
 
-Led by Lucas Estrada, the IMI 2.0 represents a **significant advancement in the field of atmospheric methane monitoring and modeling**. Building upon the foundation of its predecessor, IMI 2.0 introduces a **range of new capabilities** designed to **enhance accuracy, performance, and usability** for both scientific and stakeholder applications. One of the most notable developments is the integration of a **new blended TROPOMI+GOSAT dataset**, which combines the **high spatial resolution of TROPOMI** with the **high accuracy of GOSAT** to mitigate data artifacts and provide more **reliable emission estimates**.
+<!-- ## IMI 2.0  -->
+<h2 id = "IMI2">IMI 2.0 </h2>
+
+Led by Lucas Estrada and the [rest of the ACMG team](/team), the IMI 2.0 represents a **significant advancement in the field of atmospheric methane monitoring and modeling**. Building upon the foundation of its predecessor, IMI 2.0 introduces a **range of new capabilities** designed to **enhance accuracy, performance, and usability** for both scientific and stakeholder applications. One of the most notable developments is the integration of a **new blended TROPOMI+GOSAT dataset**, which combines the **high spatial resolution of TROPOMI** with the **high accuracy of GOSAT** to mitigate data artifacts and provide more **reliable emission estimates**.
 
 IMI 2.0 also incorporates point source observations, enabling the system to **better capture and quantify emissions from individual methane sources**. This is **particularly important for regions with significant industrial activity**, where large point sources can contribute disproportionately to overall emissions. The updated system offers a **tenfold speedup** in Jacobian matrix construction, a critical component of the inversion process, through optimized computational techniques. This enhancement **significantly reduces the computational burden** and allows for **faster, more efficient processing** of large datasets.
 
