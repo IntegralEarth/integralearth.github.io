@@ -11,16 +11,25 @@
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           <img
-            style="width: 200px !important; height: auto !important; padding-top: 12px"
-            src="{{ '/assets/images/logos/dark/logo_centersat_dark.png' | relative_url }}"
+            style="width: 120px !important; height: auto !important; padding-top: 0px"
+            src="{{ 'assets/images/logos/logo_dark_large.png' | relative_url }}"
             alt="{{ site.masthead_title | default: site.title }}" />
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
           <li class="masthead__menu-item">
-            <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif %}
-              >{{ link.title }}</a
-            >
+            {% assign icon_url = "" %}
+            {% if link.title == "About" %}
+              {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/compass.svg" %}
+            {% elsif link.title == "Development" %}
+              {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" %}
+            {% elsif link.title == "Our Team" %}
+              {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/people-group.svg" %}
+            {% elsif link.title == "Contact" %}
+              {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" %}
+            {% endif %}
+            <img src="{{ icon_url }}" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif %}>{{ link.title }}</a>
           </li>
           {%- endfor -%}
         </ul>

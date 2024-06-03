@@ -84,6 +84,16 @@
 <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon/favicon_yellow.svg">
 <!-- end custom head snippets -->
 
+      <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+        (function(){
+            emailjs.init({
+              publicKey: "WIoAqRnuWpvjo1Sa8",
+            });
+        })();
+    </script>
   </head>
 
   <body class="layout--default">
@@ -104,26 +114,30 @@
         
         <a class="site-title" href="/">
           <img
-            style="width: 200px !important; height: auto !important; padding-top: 12px"
-            src="/assets/images/logos/dark/logo_centersat_dark.png"
+            style="width: 120px !important; height: auto !important; padding-top: 0px"
+            src="/assets/images/logos/logo_dark_large.png"
             alt="IntegralEarth" />
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-            <a href="/about/" 
-              >About</a
-            >
+            
+            
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/compass.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="/about/" >About</a>
           </li><li class="masthead__menu-item">
-            <a href="/development/" 
-              >Development</a
-            >
+            
+            
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="/development/" >Development</a>
           </li><li class="masthead__menu-item">
-            <a href="/team/" 
-              >Our Team</a
-            >
+            
+            
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/people-group.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="/team/" >Our Team</a>
           </li><li class="masthead__menu-item">
-            <a href="/contact/" 
-              >Contact</a
-            >
+            
+            
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="/contact/" >Contact</a>
           </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">

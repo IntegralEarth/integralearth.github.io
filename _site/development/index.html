@@ -84,6 +84,16 @@
 <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon/favicon_yellow.svg">
 <!-- end custom head snippets -->
 
+      <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+        (function(){
+            emailjs.init({
+              publicKey: "WIoAqRnuWpvjo1Sa8",
+            });
+        })();
+    </script>
   </head>
 
   <body class="layout--single">
@@ -104,26 +114,30 @@
         
         <a class="site-title" href="/">
           <img
-            style="width: 200px !important; height: auto !important; padding-top: 12px"
-            src="/assets/images/logos/dark/logo_centersat_dark.png"
+            style="width: 120px !important; height: auto !important; padding-top: 0px"
+            src="/assets/images/logos/logo_dark_large.png"
             alt="IntegralEarth" />
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-            <a href="/about/" 
-              >About</a
-            >
+            
+            
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/compass.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="/about/" >About</a>
           </li><li class="masthead__menu-item">
-            <a href="/development/" 
-              >Development</a
-            >
+            
+            
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="/development/" >Development</a>
           </li><li class="masthead__menu-item">
-            <a href="/team/" 
-              >Our Team</a
-            >
+            
+            
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/people-group.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="/team/" >Our Team</a>
           </li><li class="masthead__menu-item">
-            <a href="/contact/" 
-              >Contact</a
-            >
+            
+            
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+            <a href="/contact/" >Contact</a>
           </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -167,18 +181,68 @@
         </header>
       
 
-      <section class="page__content e-content" itemprop="text">
+      <section class="page__content e-content" style = "width: 100% !important;" itemprop="text">
         
         <p>Exciting things are coming down the pipe!
-<img src="/assets/images/methane.jpeg" alt="Methane" class="align-center," style="width: 100%; border-radius: 5%;" /></p>
-
-<h2 id="imi-20">IMI 2.0</h2>
-
-<p>Methane is a powerful greenhouse gas that is responsible for about 30% of global warming. It is emitted from a variety of sources, including natural gas production, agriculture, and landfills. Reducing anthropogenic methane emissions is a critical step in combating climate change and protecting the environment. However, to implement mitigation strategies we must quantify methane sources, a challenging task that requires specialized equipment and expertise.</p>
+<br /><br />
+<img src="/assets/images/Development_Page/methanepipe.jpeg" alt="Methane" class="align-center," style="width: 100%; border-radius: 15px;" /></p>
 
 <h2 id="integral-earth-website">Integral Earth Website</h2>
 
-<p>We are a group of researchers at Harvard University who have spent years developing reliable, peer-reviewed algorithms for quantifying and monitoring methane emissions. We have developed a new, open-source tool that allows anyone to quantify methane emissions anywhere in the world: the <a href="https://imi.seas.harvard.edu">Integrated Methane Inversion</a>. Our tool is based on the latest scientific research and is used globally by scientists around the world.</p>
+<p>The Integral Earth website will be stakeholder’s portal to all things IMI. Here, users will be able to submit an inversion with either simple or advanced configuration parameters, including date range, region of interest (interactively selected via an integrated map or via shapefile upload).</p>
+
+<p>Below are some sample screenshots of what the site will likely look like:</p>
+<h3 id="-inversion-submission">• Inversion Submission</h3>
+
+<p>One of the core goals of Integral Earth is that users of all backgrounds will be able to use the amazing power and features of the IMI. To accommodate this, we’ve two methods of submitting inversion requests: a simple and an advanced form that has varying levels of control over configuration parameters. The simple form will include only necessary parameters such as start/end date and a region of interest while the advanced form lets users get granular control over their inversions.</p>
+
+<p class="photo-label">Advanced Form</p>
+<p><img src="/assets/images/Development_Page/Submit Forms - Advanced.png" alt="Integral Earth Full Dashboard" class="align-center," style="width: 100%; border-radius: 15px;" /></p>
+
+<p class="photo-label">Simple Form</p>
+<p><img src="/assets/images/Development_Page/Submit Forms - Simple.png" alt="Integral Earth Full Dashboard" class="align-center," style="width: 100%; border-radius: 15px;" /></p>
+
+<h3 id="-dashboard-concept">• Dashboard Concept</h3>
+<p>There are two stages to running a full methane inversion using the IMI. First, the inversion preview, which offers information about prior emissions (taken from existing inventories), satellite observation density, and estimated cost of a full inversion. After the user reviews this inversion preview and are satisfied with the results, they will have the option to submit a full inversion.</p>
+
+<p class="photo-label">Preview Dashboard</p>
+<p><img src="/assets/images/Development_Page/Dashboard - Preview.png" alt="Integral Earth Full Dashboard" class="align-center," style="width: 100%; border-radius: 15px;" /></p>
+
+<hr />
+
+<p class="photo-label">Full Inversion Dashboard</p>
+<p><img src="/assets/images/Development_Page/Dashboard – Full.png" alt="Integral Earth Full Dashboard" class="align-center," style="width: 100%; border-radius: 15px;" /></p>
+
+<p>As may be expected, the full inversion dashboard will contain much more data than the preview dashboard. For example:</p>
+<ul>
+  <li>Time trend of methane emissions throughout requested date range</li>
+  <li>Sector totals for region of interest</li>
+  <li>Scale factors ratio of corrected vs. original emissions</li>
+</ul>
+
+<h2 id="IMI2">IMI 2.0 </h2>
+
+<p>Led by Lucas Estrada and the <a href="/team">rest of the ACMG team</a>, the IMI 2.0 represents a <strong>significant advancement in the field of atmospheric methane monitoring and modeling</strong>. Building upon the foundation of its predecessor, IMI 2.0 introduces a <strong>range of new capabilities</strong> designed to <strong>enhance accuracy, performance, and usability</strong> for both scientific and stakeholder applications. One of the most notable developments is the integration of a <strong>new blended TROPOMI+GOSAT dataset</strong>, which combines the <strong>high spatial resolution of TROPOMI</strong> with the <strong>high accuracy of GOSAT</strong> to mitigate data artifacts and provide more <strong>reliable emission estimates</strong>.</p>
+
+<p>IMI 2.0 also incorporates point source observations, enabling the system to <strong>better capture and quantify emissions from individual methane sources</strong>. This is <strong>particularly important for regions with significant industrial activity</strong>, where large point sources can contribute disproportionately to overall emissions. The updated system offers a <strong>tenfold speedup</strong> in Jacobian matrix construction, a critical component of the inversion process, through optimized computational techniques. This enhancement <strong>significantly reduces the computational burden</strong> and allows for <strong>faster, more efficient processing</strong> of large datasets.</p>
+
+<p>Another key feature of IMI 2.0 is the <strong>improved error characterization through the use of super-observations</strong>, which average multiple satellite observations to provide a <strong>more accurate representation of observational errors</strong>. This, combined with adaptive spatial resolution linked to observational information content, ensures that the model can <strong>dynamically adjust its resolution</strong> to match the data density and quality, <strong>providing high-resolution results where needed most</strong>. Additionally, IMI 2.0 supports global inversion capabilities and includes a Kalman filter option for <strong>continuous, low-latency monitoring</strong> of methane emissions on a weekly or monthly basis.</p>
+
+<hr />
+
+<p>Looking ahead, the IMI team is already planning further enhancements to the system. These include <strong>increasing spatial resolution to 12x12 km²</strong>, <strong>reducing latency to just 2-3 days</strong>, and <strong>integrating methane observations from upcoming satellite instruments such as MethaneSAT, GOSAT-GW, and Sentinel-5</strong>. The incorporation of dense point source imagery from sensors like GHGSat and Carbon Mapper will further refine the accuracy and granularity of emission estimates.</p>
+
+<p>Additionally, there are plans to extend the capabilities of IMI to <strong>include CO2 emissions</strong>, making it a more comprehensive tool for greenhouse gas monitoring. This extension will leverage the same advanced inversion techniques and high-resolution satellite data that have made IMI a leading tool for methane emission monitoring. With these ongoing and future developments, <strong>IMI 2.0 is poised to become an even more powerful resource for researchers, policymakers, and stakeholders</strong> working to understand and mitigate the impacts of greenhouse gas emissions on the global climate.</p>
+
+<hr />
+
+<h2 id="looking-for-more">Looking for more?</h2>
+
+<ul>
+  <li><a href="https://gmd.copernicus.org/articles/15/5787/2022/gmd-15-5787-2022-discussion.html">IMI Paper</a></li>
+  <li><a href="https://imi.readthedocs.io/en/latest/">IMI Documentation</a></li>
+  <li><a href="https://github.com/geoschem/integrated_methane_inversion">IMI GitHub Repository</a></li>
+</ul>
 
         
       </section>
