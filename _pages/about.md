@@ -16,13 +16,13 @@ Despite global efforts to reduce greenhouse gases, atmospheric methane levels ha
 
 ![methane trends](/assets/images/About_Page/ch4_trend_all_gl.png)
 
-<h2><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/thumbs-up.svg" width="30" height="30"> • Our Solution </h2>
+<h2 id = "solution"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/thumbs-up.svg" width="30" height="30"> • Our Solution </h2>
 
 Addressing this methane crisis requires **precise quantification** and monitoring—tasks that are complex due to the diffuse and varied nature of methane sources. Without precise data to inform policy and technological solutions, efforts to curb emissions may fall short, making it imperative to [**harness advanced tools like the Integrated Methane Inversion (IMI)**](https://imi.seas.harvard.edu). 
 
 ![integrated methane inversion logo](/assets/images/logos/imi_logo_fullres.png){: .align-center, style="width: 30%; border-radius: 15px; margin-left: 35%;" }
 
-The Atmospheric Chemistry Modeling Group at Harvard University has spent years developing this software, which allows for the detailed quanitification and monitoring of methane emissions. This open-source tool allows anyone to **quantify methane emissions anywhere in the world**.
+The Atmospheric Chemistry Modeling Group at Harvard University has spent years developing this software, which allows for the detailed quanitification and monitoring of methane emissions. This [open-source tool](https://github.com/geoschem/integrated_methane_inversion/tree/main) allows anyone to **quantify methane emissions anywhere in the world**.
 
 ![methane smoke stack](/assets/images/About_Page/methanestack.jpg){: .align-center, style="border-radius: 15px;"}
 

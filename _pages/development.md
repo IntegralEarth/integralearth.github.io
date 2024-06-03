@@ -10,23 +10,29 @@ Exciting things are coming down the pipe!
 
 ## Integral Earth Website
 
-The Integral Earth website will be stakeholder's portal to all things IMI. Here, users will be able to submit an inversion with either simple or advanced configuration parameters, including date range, region of interest (interactively selected via an integrated map or via shapefile upload)
+The Integral Earth website will be stakeholder's portal to all things IMI. Here, users will be able to submit an inversion with either simple or advanced configuration parameters, including date range, region of interest (interactively selected via an integrated map or via shapefile upload).
 
 Below are some sample screenshots of what the site will likely look like:
 ### • Inversion Submission
 
-One of the core goals of Integral Earth is that users of all backgrounds will be able to use the amazing power and features of the IMI.
+One of the core goals of Integral Earth is that users of all backgrounds will be able to use the amazing power and features of the IMI. To accommodate this, we've two methods of submitting inversion requests: a simple and an advanced form that has varying levels of control over configuration parameters. The simple form will include only necessary parameters such as start/end date and a region of interest while the advanced form lets users get granular control over their inversions.
+
+<p class = "photo-label">Advanced Form</p>
+![Integral Earth Full Dashboard](/assets/images/Development_Page/Submit Forms - Advanced.png){: .align-center, style="width: 100%; border-radius: 15px;" }
+
+<p class = "photo-label">Simple Form</p>
+![Integral Earth Full Dashboard](/assets/images/Development_Page/Submit Forms - Simple.png){: .align-center, style="width: 100%; border-radius: 15px;" }
 
 ### • Dashboard Concept
 There are two stages to running a full methane inversion using the IMI. First, the inversion preview, which offers information about prior emissions (taken from existing inventories), satellite observation density, and estimated cost of a full inversion. After the user reviews this inversion preview and are satisfied with the results, they will have the option to submit a full inversion.
 
 
-<p style = "color: grey">Preview Dashboard</p>
+<p class = "photo-label">Preview Dashboard</p>
 ![Integral Earth Full Dashboard](/assets/images/Development_Page/Dashboard - Preview.png){: .align-center, style="width: 100%; border-radius: 15px;" }
 
 ---
 
-<p style = "color: grey">Full Inversion Dashboard</p>
+<p class = "photo-label">Full Inversion Dashboard</p>
 ![Integral Earth Full Dashboard](/assets/images/Development_Page/Dashboard – Full.png){: .align-center, style="width: 100%; border-radius: 15px;" }
 
 As may be expected, the full inversion dashboard will contain much more data than the preview dashboard. For example:
@@ -34,7 +40,6 @@ As may be expected, the full inversion dashboard will contain much more data tha
 - Sector totals for region of interest
 - Scale factors ratio of corrected vs. original emissions 
 
-<!-- ## IMI 2.0  -->
 <h2 id = "IMI2">IMI 2.0 </h2>
 
 Led by Lucas Estrada and the [rest of the ACMG team](/team), the IMI 2.0 represents a **significant advancement in the field of atmospheric methane monitoring and modeling**. Building upon the foundation of its predecessor, IMI 2.0 introduces a **range of new capabilities** designed to **enhance accuracy, performance, and usability** for both scientific and stakeholder applications. One of the most notable developments is the integration of a **new blended TROPOMI+GOSAT dataset**, which combines the **high spatial resolution of TROPOMI** with the **high accuracy of GOSAT** to mitigate data artifacts and provide more **reliable emission estimates**.
