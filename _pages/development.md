@@ -8,11 +8,30 @@ Exciting things are coming down the pipe!
 <br><br>
 ![Methane](/assets/images/Development_Page/methanepipe.jpeg){: .align-center, style="width: 100%; border-radius: 15px;" }
 
+## IMI - Integral Earth Workshop
+
+This coming November, Harvard and the Salata Institute will host a free virtual workshop for current and prospective IMI users. The workshop will introduce the problem of methane pollution, its relationship to current climate goals, and technological advancements designed to track and assess the magnitude of major emitters.
+
+The workshop will also introduce current and future users to **Integral Earth** and provide a demonstration of features.
+
+<div style = "border: solid #F7BA14 4px; padding: 8px; display: flex; justify-content: center; gap: 5px">
+<a href = "https://forms.gle/tTtPsDYypsFZqtAw9" target = "#">Register by October 15th</a> to secure your spot.
+</div>
+
+### Schedule
+
+November 4th, 2024. 11am EST - 1pm EST.
+
+- 11:00 - 11:30: Introduction to the methane problem and the IMI
+- 11:30 - 12:00: Integral Earth walkthrough
+- 12:00 - 1:00: Discussion and Q&A
+
 ## Integral Earth Website
 
 The Integral Earth website will be stakeholder's portal to all things IMI. Here, users will be able to submit an inversion with either simple or advanced configuration parameters, including date range, region of interest (interactively selected via an integrated map or via shapefile upload).
 
 Below are some sample screenshots of what the site will likely look like:
+
 ### • Inversion Submission
 
 One of the core goals of Integral Earth is that users of all backgrounds will be able to use the amazing power and features of the IMI. To accommodate this, we've two methods of submitting inversion requests: a simple and an advanced form that has varying levels of control over configuration parameters. The simple form will include only necessary parameters such as start/end date and a region of interest while the advanced form lets users get granular control over their inversions.
@@ -24,8 +43,8 @@ One of the core goals of Integral Earth is that users of all backgrounds will be
 ![Integral Earth Full Dashboard](/assets/images/Development_Page/Submit Forms - Simple.png){: .align-center, style="width: 100%; border-radius: 15px;" }
 
 ### • Dashboard Concept
-There are two stages to running a full methane inversion using the IMI. First, the inversion preview, which offers information about prior emissions (taken from existing inventories), satellite observation density, and estimated cost of a full inversion. After the user reviews this inversion preview and are satisfied with the results, they will have the option to submit a full inversion.
 
+There are two stages to running a full methane inversion using the IMI. First, the inversion preview, which offers information about prior emissions (taken from existing inventories), satellite observation density, and estimated cost of a full inversion. After the user reviews this inversion preview and are satisfied with the results, they will have the option to submit a full inversion.
 
 <p class = "photo-label">Preview Dashboard</p>
 ![Integral Earth Full Dashboard](/assets/images/Development_Page/Dashboard - Preview.png){: .align-center, style="width: 100%; border-radius: 15px;" }
@@ -36,9 +55,10 @@ There are two stages to running a full methane inversion using the IMI. First, t
 ![Integral Earth Full Dashboard](/assets/images/Development_Page/Dashboard – Full.png){: .align-center, style="width: 100%; border-radius: 15px;" }
 
 As may be expected, the full inversion dashboard will contain much more data than the preview dashboard. For example:
+
 - Time trend of methane emissions throughout requested date range
 - Sector totals for region of interest
-- Scale factors ratio of corrected vs. original emissions 
+- Scale factors ratio of corrected vs. original emissions
 
 <h2 id = "IMI2">IMI 2.0 </h2>
 
