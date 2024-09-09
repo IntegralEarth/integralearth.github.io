@@ -14,7 +14,7 @@
   height: $nav-toggle-height;
   border: 0;
   outline: none;
-  color: $primary-color;
+  color: #f7ba14;
   background-color: transparent;
   cursor: pointer;
   -webkit-transition: 0.2s;
@@ -50,7 +50,6 @@
     @include breakpoint($x-large) {
       max-width: $max-width;
     }
-
   }
 
   &__form {

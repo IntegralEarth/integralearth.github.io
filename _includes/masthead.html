@@ -1,5 +1,22 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
+<style>
+  .greedy-nav__toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .visible-links {
+      display: none;
+      opacity: 0;
+    }
+
+    .greedy-nav__toggle {
+      display: block;
+    }
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -13,22 +30,17 @@
           <img
             style="width: 120px !important; height: auto !important; padding-top: 0px"
             src="{{ 'assets/images/logos/logo_dark_large.png' | relative_url }}"
-            alt="{{ site.masthead_title | default: site.title }}" />
+            alt="{{ site.masthead_title | default: site.title }}"
+          />
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
           <li class="masthead__menu-item">
-            {% assign icon_url = "" %}
-            {% if link.title == "About" %}
-              {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/compass.svg" %}
-            {% elsif link.title == "Development" %}
-              {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" %}
-            {% elsif link.title == "Our Team" %}
-              {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/people-group.svg" %}
-            {% elsif link.title == "Contact" %}
-              {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" %}
-            {% endif %}
-            <img src="{{ icon_url }}" width="20" height="20" style="margin: -10px" class="nav-icon">
+            {% assign icon_url = "" %} {% if link.title == "About" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/compass.svg"
+            %} {% elsif link.title == "Development" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" %} {% elsif
+            link.title == "Our Team" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/people-group.svg" %} {% elsif link.title ==
+            "Contact" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" %} {% endif %}
+            <img src="{{ icon_url }}" width="20" height="20" style="margin: -10px" class="nav-icon" />
             <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif %}>{{ link.title }}</a>
           </li>
           {%- endfor -%}
@@ -48,3 +60,19 @@
     </div>
   </div>
 </div>
+
+<script>
+  const menuButton = document.getElementById("menu-button");
+  const greedyNav = document.querySelector(".greedy-nav");
+  const greedyNavToggle = document.querySelector(".greedy-nav__toggle");
+  const hiddenLinks = document.querySelector(".hidden-links");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuButton.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+  });
+
+  greedyNavToggle.addEventListener("click", () => {
+    hiddenLinks.classList.toggle("hidden");
+  });
+</script>

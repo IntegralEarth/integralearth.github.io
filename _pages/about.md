@@ -18,7 +18,7 @@ Despite global efforts to reduce greenhouse gases, atmospheric methane levels ha
 
 <h2 id = "solution"><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/thumbs-up.svg" width="30" height="30"> • Our Solution </h2>
 
-Addressing this methane crisis requires **precise quantification** and monitoring—tasks that are complex due to the diffuse and varied nature of methane sources. Without precise data to inform policy and technological solutions, efforts to curb emissions may fall short, making it imperative to [**harness advanced tools like the Integrated Methane Inversion (IMI)**](https://imi.seas.harvard.edu). 
+Addressing this methane crisis requires **precise quantification** and monitoring—tasks that are complex due to the diffuse and varied nature of methane sources. Without precise data to inform policy and technological solutions, efforts to curb emissions may fall short, making it imperative to [**harness advanced tools like the Integrated Methane Inversion (IMI)**](https://integratedmethaneinversion.github.io).
 
 ![integrated methane inversion logo](/assets/images/logos/imi_logo_fullres.png){: .align-center, style="width: 30%; border-radius: 15px; margin-left: 35%;" }
 
@@ -26,21 +26,21 @@ The Atmospheric Chemistry Modeling Group at Harvard University has spent years d
 
 ![methane smoke stack](/assets/images/About_Page/methanestack.jpg){: .align-center, style="border-radius: 15px;"}
 
-The IMI serves as a critical tool for both research and policy-making by providing detailed maps and data on global emissions. Researchers use IMI data to enhance scientific understanding of methane dynamics, **contributing to more accurate climate models and peer-reviewed studies**. 
+The IMI serves as a critical tool for both research and policy-making by providing detailed maps and data on global emissions. Researchers use IMI data to enhance scientific understanding of methane dynamics, **contributing to more accurate climate models and peer-reviewed studies**.
 
-For policymakers, IMI’s precise emission estimates **inform targeted strategies for methane reduction and compliance monitoring**, supporting effective environmental regulations and policy adjustments based on robust empirical evidence. **This dual utility makes the IMI indispensable in the global effort to mitigate climate change impacts**. 
+For policymakers, IMI’s precise emission estimates **inform targeted strategies for methane reduction and compliance monitoring**, supporting effective environmental regulations and policy adjustments based on robust empirical evidence. **This dual utility makes the IMI indispensable in the global effort to mitigate climate change impacts**.
 
 <h2><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/rocket.svg" width="30" height="30"> • Our Mission </h2>
 
-
 Our goal is to make our emission monitoring platform **accessible to everyone**, from policymakers to industry stakeholders to environmental organizations. We believe that by **empowering people with the knowledge and tools** to quantify methane emissions, we can accelerate the transition to a **sustainable, low-carbon future**. One major step forward in accessibility will be the creation of a website that will make the IMI easier to use for a **wider range of gas trackers**.
+
 <!--                                              CONSIDER TAKING OUT LOL ^^ -->
 
 <h2><img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/globe.svg" width="30" height="30"> • Integral Earth Website </h2>
 
-The IMI provides invaluable methane emissions data that has been used by researchers, students, and stakeholders. And this data will only get more useful with the [exciting release of IMI 2.0](/development#IMI2). Despite this data's usefulness, the IMI often requires **substantial technical expertise** and access to **computational resources**. 
+The IMI provides invaluable methane emissions data that has been used by researchers, students, and stakeholders. And this data will only get more useful with the [exciting release of IMI 2.0](/development#IMI2). Despite this data's usefulness, the IMI often requires **substantial technical expertise** and access to **computational resources**.
 
-**Integral Earth** will provide an intuitive, user-friendly interface that simplifies the entire process. Users will be able to easily select their regions of interest, define inversion parameters, and visualize results without needing to understand complex coding or data processing techniques. 
+**Integral Earth** will provide an intuitive, user-friendly interface that simplifies the entire process. Users will be able to easily select their regions of interest, define inversion parameters, and visualize results without needing to understand complex coding or data processing techniques.
 
 This democratization of access will empower a wider range of stakeholders, including policymakers, researchers, and environmental organizations, to leverage high-resolution methane emission data for climate action.
 

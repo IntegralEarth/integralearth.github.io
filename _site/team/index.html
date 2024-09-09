@@ -22,7 +22,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="IntegralEarth">
 <meta property="og:title" content="Our Team">
-<meta property="og:url" content="http://localhost:4000/team/">
+<meta property="og:url" content="http://localhost:4002/team/">
 
 
   <meta property="og:description" content="transparent methane emissions monitoring">
@@ -38,7 +38,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/team/">
+<link rel="canonical" href="http://localhost:4002/team/">
 
 
 
@@ -49,7 +49,7 @@
     
       "@type": "Person",
       "name": "Lucas Estrada",
-      "url": "http://localhost:4000/"
+      "url": "http://localhost:4002/"
     
   }
 </script>
@@ -107,6 +107,23 @@
 
     
 
+<style>
+  .greedy-nav__toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .visible-links {
+      display: none;
+      opacity: 0;
+    }
+
+    .greedy-nav__toggle {
+      display: block;
+    }
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -116,27 +133,28 @@
           <img
             style="width: 120px !important; height: auto !important; padding-top: 0px"
             src="/assets/images/logos/logo_dark_large.png"
-            alt="IntegralEarth" />
+            alt="IntegralEarth"
+          />
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-            
-            
-            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/compass.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+             
+            <img src="" width="20" height="20" style="margin: -10px" class="nav-icon" />
+            <a href="/" >Home</a>
+          </li><li class="masthead__menu-item">
+             
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/compass.svg" width="20" height="20" style="margin: -10px" class="nav-icon" />
             <a href="/about/" >About</a>
           </li><li class="masthead__menu-item">
-            
-            
-            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+             
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" width="20" height="20" style="margin: -10px" class="nav-icon" />
             <a href="/development/" >Development</a>
           </li><li class="masthead__menu-item">
-            
-            
-            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/people-group.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+             
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/people-group.svg" width="20" height="20" style="margin: -10px" class="nav-icon" />
             <a href="/team/" >Our Team</a>
           </li><li class="masthead__menu-item">
-            
-            
-            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" width="20" height="20" style="margin: -10px" class="nav-icon">
+             
+            <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" width="20" height="20" style="margin: -10px" class="nav-icon" />
             <a href="/contact/" >Contact</a>
           </li></ul>
         
@@ -149,6 +167,22 @@
     </div>
   </div>
 </div>
+
+<script>
+  const menuButton = document.getElementById("menu-button");
+  const greedyNav = document.querySelector(".greedy-nav");
+  const greedyNavToggle = document.querySelector(".greedy-nav__toggle");
+  const hiddenLinks = document.querySelector(".hidden-links");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuButton.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+  });
+
+  greedyNavToggle.addEventListener("click", () => {
+    hiddenLinks.classList.toggle("hidden");
+  });
+</script>
 
 
     <div class="initial-content">
@@ -228,7 +262,7 @@
   </ul> -->
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">IntegralEarth</a>. Powered by Science & Minimal Mistakes.</div>
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4002">IntegralEarth</a>. Powered by Science & Minimal Mistakes.</div>
 
       </footer>
     </div>
