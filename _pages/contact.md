@@ -3,19 +3,21 @@ layout: single
 title: Contact Us
 permalink: /contact/
 ---
-We look forward to hearing from you! 
+
+We look forward to hearing from you!
 
 <form id="contact-form">
   <label for="name">Name:</label>
   <input type="text" id="name" name="user_name" required>
 
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="user_email" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="user_email" required>
 
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" style = "height: 150px !important;" required></textarea>
+<label for="message">Message:</label>
+<textarea id="message" name="message" style = "height: 150px !important;" required></textarea>
 
-  <button type="submit">Send</button>
+<button type="submit">Send</button>
+
 </form>
 
 <p id="response-message"></p>
@@ -52,7 +54,6 @@ We look forward to hearing from you!
     background-color: #005bb5;
   }
 </style>
-
 
 <script type="text/javascript">
   document.getElementById('contact-form').addEventListener('submit', function(event) {

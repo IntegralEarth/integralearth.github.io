@@ -37,10 +37,11 @@
           {%- for link in site.data.navigation.main -%}
           <li class="masthead__menu-item">
             {% assign icon_url = "" %} {% if link.title == "About" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/compass.svg"
-            %} {% elsif link.title == "Development" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/gears.svg" %} {% elsif
+            %} {% elsif link.title == "News" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/newspaper.svg" %} {% elsif
             link.title == "Our Team" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/people-group.svg" %} {% elsif link.title ==
-            "Contact" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" %} {% elsif link.title == "Home" %} {%
-            assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/house.svg" %}{% endif %}
+            "Contact" %} {% assign icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bell.svg" %} {% elsif link.title == "Home" %} {% assign
+            icon_url = "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/house.svg" %}{% elsif link.title == "Support" %} {% assign icon_url =
+            "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/handshake.svg" %}{% endif %}
             <img src="{{ icon_url }}" width="20" height="20" style="margin: -10px" class="nav-icon" />
             <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif %}>{{ link.title }}</a>
           </li>

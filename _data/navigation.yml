@@ -4,9 +4,11 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Development"
-    url: /development/
+  - title: "News"
+    url: /news/
   - title: "Our Team"
     url: /team/
+  - title: "Support"
+    url: /support/
   - title: "Contact"
     url: /contact/
